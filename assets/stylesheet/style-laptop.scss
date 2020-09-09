@@ -1,0 +1,935 @@
+.page-wrapper-laptop{   
+    padding: 60px 0px 0px 0px;
+    width: 100%;
+    overflow: hidden;
+    .logo-wrapper{
+        text-align: left; 
+        padding: 0px 5%;
+        margin: 0 auto;
+        max-width: 1440px;
+        img{
+            max-width: 180px;
+            margin-left: 15px;
+        }
+    }
+
+    .carousel-wrapper{
+        padding: 0px 5%;
+        margin: 0 auto;
+        max-width: 1440px;
+        .carousel{
+            .slide-1{
+                .row{
+                    .left-side{
+                        .title{
+                            margin: 55px 0px 20px 0px; 
+                            line-height: 50px;
+                            font-family: Muli-ExtraBold;
+                            font-size: 55px;
+                            color: #181818;  
+                            span{
+                                color: #ff4c47;
+                            }
+                        }
+                        a{
+                            line-height: 32px; 
+                            width: 100%; 
+                            height: 76px;
+                            display: block; 
+                            padding: 20px; 
+                            border-radius: 38px; 
+                            background-color: #ff4c47; 
+                            text-align: center; 
+                            font-family: Muli-SemiBold; 
+                            font-size: 25px;
+                            color: #ffffff;
+                        }
+                    }
+                    .right-side{
+                        margin: 40px 0px 0px 0px;
+                        img{
+                            width: 100%;  
+                            border-radius: 33px;
+                        }
+                    }
+                }
+                .scroll{
+                    margin: 40px 0px 0px 0px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        height: 59px; 
+                        width: 33px;
+                    }
+                }
+                .scroll-text{
+                    margin: 14px 0px 0px 0px;
+                    line-height: 32px; 
+                    font-family: Muli-SemiBold; 
+                    font-size: 25px; 
+                    color: #181818; 
+                    text-align: center;
+                }
+            }
+            .slide-2{
+                .row{
+                    .left-side{
+                        .title{
+                            margin: 55px 0px 20px 0px; 
+                            line-height: 50px;
+                            font-family: Muli-ExtraBold;
+                            font-size: 50px;
+                            color: #181818;
+                            span{
+                                color: #ff4c47;
+                            }
+                        }
+                        a{
+                            line-height: 32px; 
+                            width: 100%; 
+                            height: 76px;
+                            display: block; 
+                            padding: 20px; 
+                            border-radius: 38px; 
+                            background-color: #ff4c47; 
+                            text-align: center; 
+                            font-family: Muli-SemiBold; 
+                            font-size: 25px;
+                            color: #ffffff;
+                        }
+                    }
+                    .right-side{
+                        margin: 40px 0px 0px 0px;
+                        img{
+                            width: 100%;  
+                            border-radius: 33px;
+                        }
+                    }
+                }
+                .scroll{
+                    margin: 40px 0px 0px 0px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        height: 59px; 
+                        width: 33px;
+                    }
+                }
+                .scroll-text{
+                    margin: 14px 0px 0px 0px;
+                    line-height: 32px;
+                    font-family: Muli-SemiBold; 
+                    font-size: 25px; 
+                    color: #181818; 
+                    text-align: center;
+                }
+            }
+            .slide-3{
+                .row{
+                    .left-side{
+                        .title{
+                            margin: 55px 0px 20px 0px; 
+                            line-height: 58px;
+                            font-family: Muli-ExtraBold;
+                            font-size: 47px;
+                            color: #181818;
+                            span{
+                                color: #ff4c47;
+                            }
+                        }
+                        a{
+                            line-height: 32px; 
+                            width: 100%; 
+                            height: 76px;
+                            display: block; 
+                            padding: 20px; 
+                            border-radius: 38px; 
+                            background-color: #ff4c47; 
+                            text-align: center; 
+                            font-family: Muli-SemiBold; 
+                            font-size: 25px;
+                            color: #ffffff;
+                        }
+                    }
+                    .right-side{
+                        margin: 40px 0px 0px 0px;
+                        img{
+                            width: 100%;  
+                            border-radius: 33px;
+                        }
+                    }                  
+                }
+                .scroll{
+                    margin: 40px 0 0 0;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    img{
+                        height: 59px; 
+                        width: 33px;
+                    }
+                }
+                .scroll-text{
+                    margin: 14px 0px 0px 0px;
+                    line-height: 32px;
+                    font-family: Muli-SemiBold; 
+                    font-size: 25px; 
+                    color: #181818; 
+                    text-align: center;
+                }
+            }
+            .slick-prev{
+                background: url(../images/microsite/ic-arrow-prev.png);
+                background-size: auto;
+                width: 55px;
+                height: 55px;
+                left: -5.5%;
+            }
+            .slick-next {
+                background: url(../images/microsite/ic-arrow-next.png);
+                background-size: auto;
+                width: 55px;
+                height: 55px;
+                right: -5.5%;
+            }
+            .slick-arrow {
+                top:40%;
+                border-radius:50%;
+                overflow:hidden;
+                border:1px solid #eee;
+                &:before {
+                    display: none;
+                }
+            }
+            .slick-slide{
+                height: auto;
+            }
+        }
+    }
+
+    .video-wrapper{
+        margin: 0px 0px 0px 0px;
+        padding-bottom: 50px;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 1440px;
+        overflow: hidden;
+        .video-content{
+            padding: 0px 10%;
+            margin: -750px 0px 0px 0px;
+            z-index: 5;
+            position: relative;
+            iframe{
+                border-radius: 20px;
+            }
+            .scroll{
+                margin: 80px 0px 0px 0px;
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 59px; 
+                    width: 33px;
+                }
+            }
+            .scroll-text{
+                margin: 10px 0px 0px 0px;
+                line-height: 32px; 
+                font-family: Muli-SemiBold; 
+                font-size: 25px; 
+                color: #181818; 
+                text-align: center;
+            }
+        }
+        .video-layer{
+            height: 900px;
+            margin: 0px 0px 0px 0px;
+            .cloud-1{
+                height: 472px;
+                width: 628px;
+                top: 60px;
+                img{
+                    overflow-x: auto;
+                    z-index: -1;
+                    position: absolute;
+                    left: -150px;
+                    top: 100px;
+                }
+            }
+            .cloud-2{
+                height: 607px;
+                width: 813px;
+                img{
+                    object-fit: cover;
+                    z-index: -1;
+                    position: absolute;
+                    right: -140px;
+                    top: 15%;
+                }
+            }
+        }
+    }
+
+    .promo-wrapper{
+        margin: 63px 0px 0px 0px;
+        padding: 0 0 300px 0;
+        width: 100%;
+        padding: 40px 0 0 0;
+        margin: 0 auto;
+        max-width: 1440px;
+        .promo-content{
+            h1{
+                margin: 0px 0px 60px 0px;
+                height: 42px;
+                text-align: center; 
+                font-family: Muli-ExtraBold; 
+                font-size: 58px;
+                color: #ffffff;
+            }
+            hr{
+                height:10px;
+                width: 97px;
+                background-color:#ffffff;
+                z-index: 3;
+                position: relative;
+            }
+            .promo-card{
+                display: flex;
+                justify-content: center;
+                margin: 63px 40px;
+                height: 447px;
+                .left-card{
+                    margin: 0px 30px 0px 0px;
+                    border-radius: 24px;
+                    background-color: #ffffff;
+                    height: 447px;
+                    width: 670px;
+                    box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
+                    overflow: hidden;         
+                    z-index: 3;           
+                    .promo-card-cloud{
+                        height: 286px;
+                        width: 509px;
+                        z-index: 0;
+                        position: absolute;
+                        bottom: -50px;
+                        left: -30px;
+                    }
+                    .left-content-card{
+                        margin: auto 0px;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            height: auto; 
+                            width: 150%;
+                        }
+                    }
+                    .right-content-card{
+                        margin: 30px 0px 0px 0px;
+                        .title{
+                            text-align: left; 
+                            font-family: Muli-Medium; 
+                            font-size: 47.5px;
+                            color: #030303;
+                            line-break: 55px;
+                            b{
+                                text-align: left; 
+                                font-family: Muli-ExtraBold; 
+                                font-size: 47.5px;
+                                color: #030303;
+                                line-break: 55px;
+                            }
+                        }
+                        .subtitle{
+                            margin: 5px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Regular; 
+                            font-size: 24px;
+                            color: #e87f21;
+                        }
+                        .price-after-promo{
+                            margin: 2px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Bold; 
+                            font-size: 37px;
+                            color: #ff4c48;
+                        }
+                        .price-before-promo{
+                            margin: 2px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Regular; 
+                            font-size: 20px;
+                            color: #696868;
+                            text-decoration: line-through;
+                        }
+                        .benefit-1{
+                            img{
+                                height: 27px;
+                                width: auto;
+                                display: flex;
+                                justify-content: center;
+                                margin: auto 10px 0px 0px;
+                            }
+                            p{
+                                margin: 11px 0px 0px 0px;
+                                text-align: left; 
+                                font-family: Muli-Regular; 
+                                font-size: 20px;
+                                color: #010101;
+                            }
+                        }
+                        .benefit-2{
+                            img{
+                                height: 24px;
+                                width: 38px;
+                                display: flex;
+                                justify-content: center;
+                                margin: 15px 4px 0px 0px;
+                            }
+                            p{
+                                margin: 11px 0px 0px 0px;
+                                text-align: left; 
+                                font-family: Muli-Regular; 
+                                font-size: 20px;
+                                color: #010101;
+                            }
+                        }
+                        .button-wrapper{
+                            margin: 20px 0px;
+                            width: 100%;
+                            .button-1{
+                                margin: 0px 5px 0px 0px;
+                                width: 142px; 
+                                height: 50px;
+                                display: block; 
+                                padding: 10px; 
+                                border-radius: 38px; 
+                                border-style: solid;
+                                border-width: 2px;
+                                border-color: #010101;
+                                text-align: center; 
+                                font-family: Muli-Regular; 
+                                font-size: 17px;
+                                color: #010101;
+                            }
+                            .button-2{
+                                line-height: 30px; 
+                                width: 142px; 
+                                height: 50px;
+                                display: block; 
+                                padding: 10px; 
+                                border-radius: 38px; 
+                                background-color: #ff4c47; 
+                                text-align: center; 
+                                font-family: Muli-Regular; 
+                                font-size: 17px;
+                                color: #ffffff;
+                            }
+                            @media only screen and (min-width: 1024px) {
+                                .button-1{
+                                    margin: 0px 5px 0px 0px;
+                                    width: 142px; 
+                                    height: 50px;
+                                    display: block; 
+                                    padding: 13px; 
+                                    border-radius: 38px; 
+                                    border-style: solid;
+                                    border-width: 2px;
+                                    border-color: #010101;
+                                    text-align: center; 
+                                    font-family: Muli-Regular; 
+                                    font-size: 14px;
+                                    color: #010101;
+                                }
+                                .button-2{
+                                    line-height: 30px; 
+                                    width: 142px; 
+                                    height: 50px;
+                                    display: block; 
+                                    padding: 10px; 
+                                    border-radius: 38px; 
+                                    background-color: #ff4c47; 
+                                    text-align: center; 
+                                    font-family: Muli-Regular; 
+                                    font-size: 14px;
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .right-card{
+                    margin: 0px 0px 0px 0px;
+                    border-radius: 24px;
+                    background-color: #ffffff;
+                    height: 447px;
+                    width: 670px;
+                    box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
+                    overflow: hidden;
+                    z-index: 3;
+                    .promo-card-cloud{
+                        height: 286px;
+                        width: 509px;
+                        z-index: 0;
+                        position: absolute;
+                        bottom: -50px;
+                        left: -30px;
+                    }
+                    .left-content-card{
+                        margin: auto 0px;
+                        display: flex;
+                        justify-content: center;
+                        img{
+                            height: 300%; 
+                            width: 150%;  
+                        }
+                    }
+                    .right-content-card{
+                        margin: 30px 0px 0px 0px;
+                        .title{
+                            text-align: left; 
+                            font-family: Muli-Medium; 
+                            font-size: 47.5px;
+                            color: #030303;
+                            line-break: 55px;
+                            b{
+                                text-align: left; 
+                                font-family: Muli-ExtraBold; 
+                                font-size: 47.5px;
+                                color: #030303;
+                                line-break: 55px;
+                            }
+                        }
+                        .subtitle{
+                            margin: 5px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Regular; 
+                            font-size: 24px;
+                            color: #e87f21;
+                        }
+                        .price-after-promo{
+                            margin: 2px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Bold; 
+                            font-size: 37px;
+                            color: #ff4c48;
+                        }
+                        .price-before-promo{
+                            margin: 2px 0px 0px 0px;
+                            text-align: left; 
+                            font-family: Muli-Regular; 
+                            font-size: 20px;
+                            color: #696868;
+                            text-decoration: line-through;
+                        }
+                        .benefit-1{
+                            img{
+                                height: 30px;
+                                width: auto;
+                                display: flex;
+                                justify-content: center;
+                                margin: auto 10px 0px 0px;
+                            }
+                            p{
+                                margin: 11px 0px 0px 5px;
+                                text-align: left; 
+                                font-family: Muli-Regular; 
+                                font-size: 20px;
+                                color: #010101;
+                            }
+                        }
+                        .benefit-2{
+                            img{
+                                height: 30px;
+                                width: auto;
+                                display: flex;
+                                justify-content: center;
+                                margin: 15px 4px 0px 0px;
+                            }
+                            p{
+                                margin: 11px 0px 0px 0px;
+                                text-align: left; 
+                                font-family: Muli-Regular; 
+                                font-size: 20px;
+                                color: #010101;
+                            }
+                        }
+                        
+                        .button-wrapper{
+                            margin: 20px 0px;
+                            width: 100%;
+                            .button-1{
+                                margin: 0px 5px 0px 0px;
+                                width: 142px; 
+                                height: 50px;
+                                display: block; 
+                                padding: 10px; 
+                                border-radius: 38px; 
+                                border-style: solid;
+                                border-width: 2px;
+                                border-color: #010101;
+                                text-align: center; 
+                                font-family: Muli-Regular; 
+                                font-size: 17px;
+                                color: #010101;
+                            }
+                            .button-2{
+                                line-height: 30px; 
+                                width: 142px; 
+                                height: 50px;
+                                display: block; 
+                                padding: 10px; 
+                                border-radius: 38px; 
+                                background-color: #ff4c47; 
+                                text-align: center; 
+                                font-family: Muli-Regular; 
+                                font-size: 17px;
+                                color: #ffffff;
+                            }
+                            @media only screen and (min-width: 1024px) {
+                                .button-1{
+                                    margin: 0px 5px 0px 0px;
+                                    width: 142px; 
+                                    height: 50px;
+                                    display: block; 
+                                    padding: 13px; 
+                                    border-radius: 38px; 
+                                    border-style: solid;
+                                    border-width: 2px;
+                                    border-color: #010101;
+                                    text-align: center; 
+                                    font-family: Muli-Regular; 
+                                    font-size: 14px;
+                                    color: #010101;
+                                }
+                                .button-2{
+                                    line-height: 30px; 
+                                    width: 142px; 
+                                    height: 50px;
+                                    display: block; 
+                                    padding: 10px; 
+                                    border-radius: 38px; 
+                                    background-color: #ff4c47; 
+                                    text-align: center; 
+                                    font-family: Muli-Regular; 
+                                    font-size: 14px;
+                                    color: #ffffff;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .scroll{
+                margin: 85px 0px 0px 0px;
+                display: flex;
+                justify-content: center;
+                img{
+                    height: 59px; 
+                    width: 33px;
+                }
+            }
+            .scroll-text{
+                margin: 14px 0px 0px 0px;
+                line-height: 32px; 
+                font-family: Muli-SemiBold; 
+                font-size: 25px; 
+                color: #181818; 
+                text-align: center;
+            }
+        }
+        .promo-layer{
+            margin: -900px 0px 0px 0px;
+            background-color: #f15b55;
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            .cloud-left{
+                height: 607px;
+                width: 548px;
+                flex-basis: 0;
+                flex-grow: 1;
+                position: relative;
+                img{
+                    z-index: 0;
+                    position: absolute;
+                    left: -120px;
+                    top: 10px;
+                }
+            }
+            .cloud-right{
+                height: 562px;
+                width: 945px;
+                flex-basis: 0;
+                flex-grow: 1;
+                position: relative;
+                img{
+                    z-index: 0;
+                    position: relative;
+                    right: 0px;
+                    top: 80px;
+                }
+            }
+        }
+    }
+
+    .registration-wrapper{
+        margin: 350px auto 0px auto;
+        max-width: 1440px;
+        overflow: hidden;
+        .registration-layer{
+            background-color: #f4f4f4;
+            height: 1100px;
+            .cloud-left{
+                height: 1236px;
+                width: 185px;
+                img{
+                    z-index: 0;
+                    position: absolute;
+                    left: -650px;
+                    top: 10px;
+                }
+            }
+            .cloud-right{
+                height: 1230px;
+                width: 191px;
+                img{
+                    z-index: 0;
+                    position: absolute;
+                    right: -650px;
+                }
+            }
+        }
+        .registration-content{
+            margin: -1050px 0px 0px 0px;
+            h1{
+                margin: 0px 0px 0px 0px;
+                height: 42px;
+                text-align: center; 
+                font-family: Muli-ExtraBold; 
+                font-size: 58px;
+                color: #181818;
+            }
+            h2{
+                margin: 29px 0px 37px 0px;
+                text-align: center; 
+                font-family: Muli-SemiBold; 
+                font-size: 25px;
+                color: #181818;
+            }
+            hr{
+                height:10px;
+                width: 97px;
+                background-color:#f15b55;
+            }
+        }
+        .registration-popup-wrapper{
+            margin: -970px 0px 0px 0px;
+            height: 950px;
+            width: 100%;
+            position: relative;
+            z-index: 2;
+            display: none;
+            .registration-popup-layer{
+                opacity: 0.7;
+                background-color: #0b0b0b;
+                z-index: 2;
+                height: 950px;
+                width: 100%;
+            }
+            .registration-popup-content{
+                margin: -800px 0px 0px 0px;
+                width: 100%;
+                z-index: 3;
+                position: relative;
+                padding: 10% 10%;
+                text-align: center;
+                img{
+                    width: 900px;
+                    height: auto;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                }
+                .registration-popup-description{
+                    margin: 0px 0px 0px 0px;
+                    width: auto;
+                    h1{
+                        text-align: center; 
+                        font-family: Muli-ExtraBold; 
+                        font-size: 50px;
+                        color: #ffffff;
+                        z-index: 4;
+                        position: relative; 
+                    }
+                    hr{
+                        height:10px;
+                        width: 97px;
+                        background-color:#ffffff;
+                        z-index: 4;
+                        position: relative;
+                    }
+                    p{
+                        text-align: center; 
+                        font-family: Muli-Medium; 
+                        font-size: 30px;
+                        color: #ffffff;
+                        z-index: 4;
+                        position: relative;
+                    }
+                    a{
+                        margin: 20px auto;
+                        max-width: 420px; 
+                        width: 100%; 
+                        height: 76px;
+                        display: block; 
+                        padding: 20px; 
+                        border-radius: 38px; 
+                        background-color: #ffffff; 
+                        text-align: center; 
+                        font-family: Muli-SemiBold; 
+                        font-size: 25px;
+                        color: #ff4c47;
+                        z-index: 4;
+                        position: relative;
+                    }   
+                }
+            }
+        }
+    }
+
+    .spot-wrapper{
+        margin: 90px auto 0px auto;
+        max-width: 1440px;
+        overflow: hidden;
+        .spot-layer{
+            height: 1000px;
+            img{
+                height: 602px;
+                width: 900px;
+                z-index: 0;
+                position: relative;
+                top: 350px;
+                left: 750px;
+            }
+        }
+        .spot-content{
+            margin: -900px 0px 300px 0px;
+            display: flex;
+            justify-content: center;
+            padding: 0px 50px;
+            .spot-location{
+                h1{
+                    margin: 112px 0px 0px 0px;
+                    text-align: left; 
+                    font-family: Muli-ExtraBold; 
+                    font-size: 45px;
+                    color: #181818;
+                }
+                hr{
+                    margin: 29px 0px 0px 0px;
+                    height:10px;
+                    width: 97px;
+                    background-color:#f15b55;
+                    text-align: left;
+                }
+                .spot-location-description{
+                    margin: 45px 0px 0px 0px;
+                    text-align: left; 
+                    font-family: Muli-Regular; 
+                    font-size: 28px;
+                    color: #181818;
+                    .left-side-description{
+                        margin: 0px 40px 0px 0px;
+                    }
+                }
+            }
+            .spot-image{
+                img{
+                    height:679px;
+                    width: 549px;
+                }
+            }
+        }
+    }
+}
+
+form, .form-register {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: relative;
+    padding: 0 16px;
+    select{
+        -webkit-appearance: none;
+        color:#757575;
+        background-image: linear-gradient(45deg, transparent 50%, red 50%), linear-gradient(135deg, red 50%, transparent 50%), linear-gradient(to right, white, white);
+        background-position: calc(100% - 25px) calc(1em + 10px), calc(100% - 15px) calc(1em + 10px), 100% -5px;
+        background-size: 10px 10px, 10px 10px, 2.5em 2.5em;
+        background-repeat: no-repeat;
+    }
+    .two-row-container{
+        display: flex;
+        justify-content: space-between;
+    }
+    .two-row-content{
+        width: 49%;
+    }
+    .two-row-input{
+        width: 100%;
+        padding: 15px;
+    }
+    .form-label{
+        margin: 10px 0px 0px 0px;
+        font-family: Muli-SemiBold; 
+        font-size: 25px;
+        color: #181818;
+    }
+    .form-input{
+        margin: 0px 15px 0px 0px;
+        width: 100%;
+        padding: 15px;
+    }
+    input[type=text], select {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #f15b55;
+        height: 64px;
+        background-color: #ffffff;
+    }
+    input[type=number], select {
+        border-style: solid;
+        border-width: 2px;
+        border-color: #f15b55;
+        height: 64px;
+        background-color: #ffffff;
+    }
+    input[type=submit], button[type=button] {
+        margin: 53px auto;
+        text-align: center;
+        width: 420px; 
+        height: 76px;
+        display: block; 
+        padding: 20px; 
+        border-radius: 38px; 
+        background-color: #ff4c47; 
+        text-align: center; 
+        font-family: Muli-SemiBold; 
+        font-size: 25px;
+        color: #ffffff;
+        border: #ff4c47;
+    }
+    .form-error{
+        color: #FF0000;
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .page-wrapper-laptop{
+        display: none;
+    }
+}

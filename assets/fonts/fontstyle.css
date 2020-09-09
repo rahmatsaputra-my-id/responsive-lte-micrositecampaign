@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Muli-Regular';
+    src: url('Muli-Regular.eot');
+    src: url('Muli-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Muli-Regular.woff2') format('woff2'),
+        url('Muli-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muli-Bold';
+    src: url('Muli-Bold.eot');
+    src: url('Muli-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Muli-Bold.woff2') format('woff2'),
+        url('Muli-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Muli-ExtraBold';
+    src: url('Muli-ExtraBold.eot');
+    src: url('Muli-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('Muli-ExtraBold.woff2') format('woff2'),
+        url('Muli-ExtraBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Muli-SemiBold';
+    src: url('Muli-SemiBold.eot');
+    src: url('Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Muli-SemiBold.woff2') format('woff2'),
+        url('Muli-SemiBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Muli-Medium';
+    src: url('Muli-Medium.eot');
+    src: url('Muli-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Muli-Medium.woff2') format('woff2'),
+        url('Muli-Medium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

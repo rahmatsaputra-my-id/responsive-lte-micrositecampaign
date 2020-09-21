@@ -2,6 +2,15 @@ $(document).ready(function () {
     let selectedProvince="";
     let selectedCity="";
     let selectedDistrict="";
+
+    // Env Dev
+    // let baseUrl = "https://api-dev.myorbit.id";
+    
+    // Env Preprod
+    // let baseUrl = "https://api-preprod.myorbit.id";
+    
+    // Env Prod
+    let baseUrl = "https://api.myorbit.id";
     
     get_provinsi();
     $("#dropdown-provinsi-mobile, #dropdown-provinsi-desktop").change(function(event){    
@@ -42,7 +51,7 @@ $(document).ready(function () {
     
     function get_provinsi() {
         $.get({
-            url: "https://api-dev.myorbit.id/coverage/v1/coverages/lacima", 
+            url: baseUrl+"/coverage/v1/coverages/lacima", 
             success: function (returnDataProvinsi) {
                 let htmlElements = "<option value='' disabled selected hidden>Silakan Pilih Provinsi Anda</option>";
                 $.each(returnDataProvinsi.data, function (i, item) {
@@ -56,7 +65,7 @@ $(document).ready(function () {
     }
     function get_kota() {
         $.get({
-            url: "https://api-dev.myorbit.id/coverage/v1/coverages/lacima/"+selectedProvince.replace("_"," "),
+            url: baseUrl+"/coverage/v1/coverages/lacima/"+selectedProvince.replace("_"," "),
             success: function (returnDataKota) {
                 let htmlElements = "<option value='' disabled selected hidden>Silakan Pilih Kota Anda</option>";
                 $.each(returnDataKota.data, function (i, item) {
@@ -69,7 +78,7 @@ $(document).ready(function () {
     }
     function get_kecamatan() {
         $.get({
-            url: "https://api-dev.myorbit.id/coverage/v1/coverages/lacima/"+selectedProvince.replace("_"," ")+"/"+selectedCity.replace("_"," "),
+            url: baseUrl+"/coverage/v1/coverages/lacima/"+selectedProvince.replace("_"," ")+"/"+selectedCity.replace("_"," "),
             success: function (returnDataKecamatan) {
                 let htmlElements = "<option value='' disabled selected hidden>Silakan Pilih Kecamatan Anda</option>";
                 $.each(returnDataKecamatan.data, function (i, item) {
@@ -141,7 +150,7 @@ $(document).ready(function () {
 
     function sendForm(formData) {
         $.ajax({
-            url: "https://api-dev.myorbit.id/content/v1/subscription",
+            url: baseUrl+"/content/v1/subscription",
             method: 'POST',
             data: JSON.stringify(formData),
             dataType: 'json',
@@ -176,9 +185,6 @@ $(document).ready(function () {
                     formErrorPhone.show();
                     formErrorPhone.text("Format Nomor Handphone Anda Tidak Sesuai");
                 }
-
-                // alert(JSON.stringify(errResponse));
-
             }
          });
     }

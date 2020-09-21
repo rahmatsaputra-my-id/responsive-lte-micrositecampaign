@@ -85,7 +85,7 @@
   background-size: contain;
   width: 45px;
   height: 45px;
-  left: -40px;
+  left: -30px;
 }
 
 .page-wrapper-mobile .carousel-wrapper .carousel .slick-next {
@@ -93,7 +93,7 @@
   background-size: contain;
   width: 45px;
   height: 45px;
-  right: -40px;
+  right: -30px;
 }
 
 .page-wrapper-mobile .carousel-wrapper .carousel .slick-arrow {
@@ -127,7 +127,7 @@
   background-color: #ff4c47;
   text-align: center;
   font-family: Muli-SemiBold;
-  font-size: 25px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -156,7 +156,7 @@
           justify-content: center;
   text-align: center;
   font-family: Muli-SemiBold;
-  font-size: 20px;
+  font-size: 14px;
   color: #181818;
 }
 
@@ -224,12 +224,12 @@
           justify-content: center;
   text-align: center;
   font-family: Muli-SemiBold;
-  font-size: 20px;
+  font-size: 14px;
   color: #181818;
 }
 
 .page-wrapper-mobile .promo-wrapper {
-  padding: 150px 0 0 0;
+  padding: 110px 0 0 0;
   position: relative;
 }
 
@@ -240,11 +240,11 @@
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content h1 {
-  margin: 0px 0px 60px 0px;
+  margin: 0px 0px 20px 0px;
   height: 42px;
   text-align: center;
   font-family: Muli-ExtraBold;
-  font-size: 58px;
+  font-size: 35px;
   color: #ffffff;
   z-index: 0;
   position: relative;
@@ -270,8 +270,6 @@
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card {
   border-radius: 24px;
   background-color: #ffffff;
-  width: 100%;
-  height: 100%;
   -webkit-box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -292,14 +290,12 @@
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content {
-  height: 50%;
   margin: 40px 8% 0px 8%;
-  width: 100%;
   z-index: 1;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .image-modem-star {
-  margin: 0px 20% 0px 20%;
+  margin: 0px 25% 0px 15%;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .image-modem-star img {
@@ -351,12 +347,16 @@
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .benefit-1 {
   margin: 20px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .benefit-1 img {
-  height: 30px;
-  width: auto;
-  margin: auto 0px auto 0px;
+  width: 35px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -381,12 +381,16 @@
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .benefit-2 {
   margin: 10px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-star .star-card .promo-card-content .benefit-2 img {
-  height: auto;
   width: 35px;
-  margin: auto 0px auto 0px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -424,7 +428,7 @@
   background-color: #ff4c47;
   text-align: center;
   font-family: Muli-Regular;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -439,7 +443,7 @@
   border-color: #010101;
   text-align: center;
   font-family: Muli-Regular;
-  font-size: 17px;
+  font-size: 20px;
   color: #010101;
 }
 
@@ -457,8 +461,6 @@
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card {
   border-radius: 24px;
   background-color: #ffffff;
-  width: 100%;
-  height: 100%;
   -webkit-box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 5.8px 10.5px 16px 0 rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -479,14 +481,12 @@
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content {
-  height: 50%;
   margin: 40px 8% 0px 8%;
-  width: 100%;
   z-index: 1;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .image-modem-star {
-  margin: 0px 20% 0px 20%;
+  margin: 0px 20% 0px 3%;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .image-modem-star img {
@@ -539,12 +539,16 @@
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .benefit-1 {
   margin: 20px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .benefit-1 img {
-  height: 30px;
-  width: auto;
-  margin: auto 0px auto 0px;
+  width: 35px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -569,12 +573,16 @@
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .benefit-2 {
   margin: 10px 0px 0px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .page-wrapper-mobile .promo-wrapper .promo-content .promo-card-max .max-card .promo-card-content .benefit-2 img {
-  height: auto;
   width: 35px;
-  margin: auto 0px auto 0px;
 }
 
 @media only screen and (max-width: 320px) {
@@ -612,7 +620,7 @@
   background-color: #ff4c47;
   text-align: center;
   font-family: Muli-Regular;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
 }
 
@@ -627,7 +635,7 @@
   border-color: #010101;
   text-align: center;
   font-family: Muli-Regular;
-  font-size: 17px;
+  font-size: 20px;
   color: #010101;
 }
 
@@ -649,7 +657,7 @@
 .page-wrapper-mobile .promo-wrapper .promo-content .scroll-text {
   margin: 14px 0px 0px 0px;
   font-family: Muli-SemiBold;
-  font-size: 20px;
+  font-size: 14px;
   color: #181818;
   text-align: center;
 }
@@ -680,7 +688,7 @@
 
 .page-wrapper-mobile .registration-wrapper {
   margin: 40px 0px 0px 0px;
-  padding: 50px 0px  0px 0px;
+  padding: 20px 0px  0px 0px;
   background-color: #f4f4f4;
 }
 
@@ -778,7 +786,7 @@
 .page-wrapper-mobile .registration-wrapper .registration-content select {
   -webkit-appearance: none;
   color: #757575;
-  background-image: linear-gradient(45deg, transparent 50%, red 50%), linear-gradient(135deg, red 50%, transparent 50%), linear-gradient(to right, white, white);
+  background-image: linear-gradient(45deg, transparent 50%, #646464 50%), linear-gradient(135deg, #646464 50%, transparent 50%), linear-gradient(to right, white, white);
   background-position: calc(100% - 25px) calc(1em + 5px), calc(100% - 15.51px) calc(1em + 5px), 100% -5px;
   background-size: 10px 10px, 10px 10px, 2.5em 2.5em;
   background-repeat: no-repeat;
@@ -789,7 +797,7 @@
   height: 42px;
   text-align: center;
   font-family: Muli-ExtraBold;
-  font-size: 40px;
+  font-size: 35px;
   color: #181818;
 }
 
@@ -798,7 +806,7 @@
   margin: 29px 0px 37px 0px;
   text-align: center;
   font-family: Muli-SemiBold;
-  font-size: 25px;
+  font-size: 20px;
   color: #181818;
 }
 
@@ -812,7 +820,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 0px 10px 0px 10px;
+  padding: 0px 15px 53px 15px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -821,20 +829,20 @@
 .page-wrapper-mobile .registration-wrapper .registration-content form .form-label, .page-wrapper-mobile .registration-wrapper .registration-content .form-register-mobile .form-label {
   margin: 10px 0px 0px 0px;
   font-family: Muli-SemiBold;
-  font-size: 25px;
+  font-size: 20px;
   color: #181818;
 }
 
 .page-wrapper-mobile .registration-wrapper .registration-content form .form-input, .page-wrapper-mobile .registration-wrapper .registration-content .form-register-mobile .form-input {
   border-style: solid;
   border-width: 2px;
-  border-color: #f15b55;
+  border-color: #646464;
   height: 50px;
   background-color: #ffffff;
 }
 
 .page-wrapper-mobile .registration-wrapper .registration-content form #form-submit-mobile, .page-wrapper-mobile .registration-wrapper .registration-content .form-register-mobile #form-submit-mobile {
-  margin: 53px auto;
+  margin: 53px auto 0 0;
   text-align: center;
   width: 100%;
   height: 50px;
@@ -844,7 +852,7 @@
   background-color: #ff4c47;
   text-align: center;
   font-family: Muli-SemiBold;
-  font-size: 17px;
+  font-size: 20px;
   color: #ffffff;
   border: #ff4c47;
 }
@@ -853,6 +861,10 @@
   color: #FF0000;
   width: 100%;
   display: none;
+}
+
+.page-wrapper-mobile .registration-wrapper .registration-content form #input-adress-mobile, .page-wrapper-mobile .registration-wrapper .registration-content .form-register-mobile #input-adress-mobile {
+  height: 130px;
 }
 
 .page-wrapper-mobile .spot-wrapper {
@@ -889,7 +901,7 @@
 .page-wrapper-mobile .spot-wrapper .spot-content .spot-location h1 {
   text-align: center;
   font-family: Muli-ExtraBold;
-  font-size: 40px;
+  font-size: 35px;
   color: #181818;
 }
 
